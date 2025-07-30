@@ -29,10 +29,10 @@ To improve DX, container is using volumes, to move updated files on your disk to
 
     ```sh
     # Build a Docker container.
-    docker-compose build
+    docker compose build
 
     # Run a Docker container, which will run your Bedrock server instance.
-    docker-compose up
+    docker compose up
     ```
 
 🎉 Congrats! If you have done everything right, you should be able to connect to your server in Minecraft on `localhost:19132`.
