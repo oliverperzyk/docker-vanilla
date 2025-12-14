@@ -16,7 +16,6 @@
     ],
     "author": "m0lc14kk",
     "license": "Apache-2.0",
-    "packageManager": "pnpm@10.13.1",
     "devDependencies": {
         "husky": "^9.1.7",
         "prettier": "^3.6.2"

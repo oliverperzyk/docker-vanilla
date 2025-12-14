@@ -1,10 +1,17 @@
+# IDE files.
 /.idea/
 /.vscode/
-!/.vscode/extensions.json
 /.vs/
+/.cursor/
 
+# Libraries and lockfiles.
 /node_modules/
+/package-lock.json
+/pnpm-lock.yaml
+/yarn.lock
 
+# Minecraft server files.
 minecraft/
 
+# macOS files.
 /**/*.DS_Store*
