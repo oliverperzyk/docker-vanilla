@@ -1,21 +1,41 @@
 {
-    "name": "macos-localhost",
-    "description": "A easy way to set-up a localhost server of Minecraft: Bedrock Edition vanilla software.",
+    "name": "@m0lc14kk/bedrock-server-vanilla",
+    "description": "A easy way to set-up a localhost server of Minecraft: Bedrock Edition vanilla software, using Docker.",
     "version": "1.0.0",
     "private": false,
+    "license": "Apache-2.0",
+    "type": "module",
+    "author": {
+        "name": "m0lc14kk",
+        "url": "https://m0lc14kk.com",
+        "email": "olek@m0lc14kk.com"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/m0lc14kk/docker-vanilla.git"
+    },
+    "bugs": {
+        "url": "https://github.com/m0lc14kk/docker-vanilla/issues"
+    },
+    "keywords": [
+        "docker",
+        "bedrock",
+        "server",
+        "vanilla",
+        "minecraft",
+        "bds",
+        "bedrock dedicated server",
+        "bedrock server",
+        "bedrock server vanilla",
+        "bedrock server vanilla docker",
+        "bedrock server vanilla docker compose",
+        "bedrock server vanilla docker compose yaml",
+        "bedrock server vanilla docker compose yaml file"
+    ],
     "scripts": {
         "format": "pnpm exec prettier --write .",
         "prepare": "husky"
     },
-    "keywords": [
-        "minecraft bedrock server",
-        "minecraft bedrock server vanilla",
-        "bedrock bds",
-        "minecraft bds",
-        "bds vanilla"
-    ],
-    "author": "m0lc14kk",
-    "license": "Apache-2.0",
     "devDependencies": {
         "husky": "^9.1.7",
         "prettier": "^3.6.2"
